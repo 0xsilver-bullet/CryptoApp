@@ -70,6 +70,7 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_ui_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_ui_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_ui_version"
+    implementation "com.google.accompanist:accompanist-flowlayout:0.17.0"
 
     // Architectural Components
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
